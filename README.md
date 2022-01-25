@@ -11,7 +11,7 @@ We succesfully managed to get a working version of the demo game, it is not perf
 - Player control, shooting, death and respawning
 - Per team scoring system to determine winner
 - UI for game menu to leave match and in game scoreboard
-- Character animations and trails
+- Character animations and ball trails
 
 Some features we are missing include
 - Maps, only one map made was added to the map selection
