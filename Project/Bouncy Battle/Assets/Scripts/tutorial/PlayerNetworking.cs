@@ -1,0 +1,24 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using Photon.Pun;
+
+public class PlayerNetworking : MonoBehaviour
+{
+    public MonoBehaviour[] scriptsToIgnore;
+
+    private PhotonView photonView;
+    void Start()
+    {
+        var cam = FindObjectOfType<Camera>();
+        photonView = GetComponent<PhotonView>();
+        if (!photonView.IsMine)
+        {
+            foreach (var script in scriptsToIgnore)
+            {
+                script.enabled = false;
+            }
+            cam.enabled = false;
+        }
+    }
+}
