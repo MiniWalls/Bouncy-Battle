@@ -6,17 +6,17 @@ Idea for the game was a team based multiplayer battler over the internet.
 
 # End result
 We succesfully managed to get a working version of the demo game, it is not perfect but, the features of the working version include 
--Creation of a lobby or joining a pre-existing one
--Remembering users name and tracking their total kills
--Support for 4 people per match over the internet
--Player control, shooting, death and respawning
--Per team scoring system to determine winner
--UI for game menu to leave match and in game scoreboard
--Character animations and trails
+- Creation of a lobby or joining a pre-existing one
+- Remembering users name and tracking their total kills
+- Support for 4 people per match over the internet
+- Player control, shooting, death and respawning
+- Per team scoring system to determine winner
+- UI for game menu to leave match and in game scoreboard
+- Character animations and trails
 
 Some features we are missing include
--Maps, only one map made was added to the map selection
--Graphics and settings
+- Maps, only one map made was added to the map selection
+- Graphics and settings
 
 
 # The Main Menu UI
